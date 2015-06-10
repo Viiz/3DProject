@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: TankTowerAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 6ea011792b6fd4b17908fee28bc2c2c9, type: 2}
+  mSprites:
+  - name: Skull
+    x: 0
+    y: 92
+    width: 54
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 23
+    paddingRight: 23
+    paddingTop: 18
+    paddingBottom: 18
+  - name: Tower1Attack11
+    x: 1427
+    y: 457
+    width: 223
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 35
+    paddingTop: 126
+    paddingBottom: 0
+  - name: Tower1Attack12
+    x: 1427
+    y: 628
+    width: 223
+    height: 178
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 35
+    paddingTop: 118
+    paddingBottom: 0
+  - name: Tower1Attack13
+    x: 1427
+    y: 115
+    width: 223
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 35
+    paddingTop: 126
+    paddingBottom: 0
+  - name: Tower1Attack14
+    x: 1651
+    y: 636
+    width: 223
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 35
+    paddingTop: 126
+    paddingBottom: 0
+  - name: Tower1Attack15
+    x: 1651
+    y: 457
+    width: 223
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 35
+    paddingTop: 126
+    paddingBottom: 0
+  - name: Tower1Attack21
+    x: 1204
+    y: 413
+    width: 222
+    height: 196
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 36
+    paddingTop: 100
+    paddingBottom: 0
+  - name: Tower1Attack22
+    x: 1204
+    y: 216
+    width: 222
+    height: 196
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 36
+    paddingTop: 100
+    paddingBottom: 0
+  - name: Tower1Attack23
+    x: 1636
+    y: 828
+    width: 222
+    height: 196
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 36
+    paddingTop: 100
+    paddingBottom: 0
+  - name: Tower1Attack24
+    x: 1204
+    y: 610
+    width: 222
+    height: 196
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 36
+    paddingTop: 100
+    paddingBottom: 0
+  - name: Tower1Attack25
+    x: 753
+    y: 9
+    width: 222
+    height: 196
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 36
+    paddingTop: 100
+    paddingBottom: 0
+  - name: Tower1Attack31
+    x: 988
+    y: 807
+    width: 215
+    height: 217
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 33
+    paddingTop: 79
+    paddingBottom: 0
+  - name: Tower1Attack32
+    x: 988
+    y: 371
+    width: 215
+    height: 217
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 33
+    paddingTop: 79
+    paddingBottom: 0
+  - name: Tower1Attack33
+    x: 1420
+    y: 807
+    width: 215
+    height: 217
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 33
+    paddingTop: 79
+    paddingBottom: 0
+  - name: Tower1Attack34
+    x: 988
+    y: 153
+    width: 215
+    height: 217
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 33
+    paddingTop: 79
+    paddingBottom: 0
+  - name: Tower1Attack35
+    x: 1204
+    y: 807
+    width: 215
+    height: 217
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 33
+    paddingTop: 79
+    paddingBottom: 0
+  - name: Tower1Attack41
+    x: 518
+    y: 206
+    width: 234
+    height: 272
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 24
+    paddingTop: 24
+    paddingBottom: 0
+  - name: Tower1Attack42
+    x: 518
+    y: 752
+    width: 234
+    height: 272
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 24
+    paddingTop: 24
+    paddingBottom: 0
+  - name: Tower1Attack43
+    x: 753
+    y: 206
+    width: 234
+    height: 272
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 24
+    paddingTop: 24
+    paddingBottom: 0
+  - name: Tower1Attack44
+    x: 753
+    y: 752
+    width: 234
+    height: 272
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 24
+    paddingTop: 24
+    paddingBottom: 0
+  - name: Tower1Attack45
+    x: 518
+    y: 479
+    width: 234
+    height: 272
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 24
+    paddingTop: 24
+    paddingBottom: 0
+  - name: Tower1Attack51
+    x: 259
+    y: 728
+    width: 258
+    height: 296
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tower1Attack52
+    x: 259
+    y: 431
+    width: 258
+    height: 296
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tower1Attack53
+    x: 0
+    y: 134
+    width: 258
+    height: 296
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tower1Attack54
+    x: 0
+    y: 728
+    width: 258
+    height: 296
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tower1Attack55
+    x: 259
+    y: 134
+    width: 258
+    height: 296
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tower1Idle1
+    x: 1427
+    y: 286
+    width: 223
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 35
+    paddingTop: 126
+    paddingBottom: 0
+  - name: Tower1Idle2
+    x: 518
+    y: 9
+    width: 222
+    height: 196
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 36
+    paddingTop: 100
+    paddingBottom: 0
+  - name: Tower1Idle3
+    x: 988
+    y: 589
+    width: 215
+    height: 217
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 33
+    paddingTop: 79
+    paddingBottom: 0
+  - name: Tower1Idle4
+    x: 753
+    y: 479
+    width: 234
+    height: 272
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 24
+    paddingTop: 24
+    paddingBottom: 0
+  - name: Tower1Idle5
+    x: 0
+    y: 431
+    width: 258
+    height: 296
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
